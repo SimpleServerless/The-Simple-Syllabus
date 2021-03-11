@@ -24,7 +24,7 @@ Repo: [simple-routing](https://github.com/SimpleServerless/simple-routing)
 ---
 
 ### Lesson 3: A dynamic routing framework
-Building on **Lesson 1** we use CDK to add about another 100 lines of code to scan our lambda for `@router` decorators
+Building on **Lesson 1** we use CDK to add a few lines of code to scan our lambda for `@router` decorators
 and dynamically deploy the REST routes on API Gateway or grqphql resolvers on AppSync. Now all you need to do to
 turn a function in a lambda into an API endpoint is type `@router.rest("GET", "/students")` above it.
 
