@@ -1,7 +1,7 @@
 # The Simple Syllabus
  
 ### Lesson 1: A simple routing framework
-If you're embedding a fat web server in your serverless function you're doing it wrong. With about 100 lines of code you
+If you're embedding a fat web server in your serverless function just to do routing, you're doing it wrong. With about 100 lines of code you
 do something like this.
 ```
 @router.rest("GET", "/students")
