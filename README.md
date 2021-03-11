@@ -1,6 +1,6 @@
 # The Simple Syllabus
  
-###Leason 1: A simple routing framework
+##Leason 1: A simple routing framework
 If you're embedding a web server in your serverless function you're doing it wrong. With about 100 lines of code you
 can something like this.
 ```
